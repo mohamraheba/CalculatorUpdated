@@ -25,7 +25,7 @@ public class Calculator
         {
             if(op2 == 0)
             {
-                throw new DivisionByZeroException("Division by zero");
+                throw new DivisionByZeroException("You cant divide by zero");
             }
             else
             {
